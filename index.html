@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image-swaping </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>current image</h1>
+    <div id="container">
+        <img src="bike.jpg" alt="this is bike " onclick="imageSwap('bike.jpg')">
+        <img src="cylcle.jpg" alt="this is cylcle" onclick="imageSwap('cylcle.jpg')">
+        <img src="car.jpg" alt="this is car " onclick="imageSwap('car.jpg')">
+
+
+    </div>
+    <div>
+        <h2>Selected image </h2>
+        <img src="car.jpg" alt="this is car" id="mainDiv" >
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
